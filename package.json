@@ -1,8 +1,7 @@
 {
   "private": true,
-  "name": "storybookProject",
+  "name": "storybookproject",
   "version": "1.0.0",
-  "description": "",
   "workspaces": [
     "packages/*"
   ],
@@ -25,10 +24,20 @@
     "@storybook/vue": "^6.3.7",
     "babel-loader": "^8.2.2",
     "jest": "^27.0.6",
+    "lerna": "^4.0.0",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14"
   },
   "dependencies": {
     "vue": "^2.6.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucktangpeng/element-tengpeng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucktangpeng/element-tengpeng/issues"
+  },
+  "homepage": "https://github.com/lucktangpeng/element-tengpeng#readme",
+  "description": ""
 }
